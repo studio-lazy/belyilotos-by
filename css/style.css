@@ -566,7 +566,8 @@ input {
 }
 .modal-window_block form {
 	text-align: center;
-	margin-bottom: 1em
+	margin-bottom: 1em;
+	pointer-events: none;
 }
 .modal-window_block input {
 	border: 1px solid #ddd;
@@ -1245,6 +1246,7 @@ footer {
     margin: 1em 10px 2em;
     display: block;
     max-width: 100%;
+    ointer-events: none;
 }
 
 #contact input, #contact textarea, #kontakt input, #kontakt textarea {
@@ -1260,6 +1262,7 @@ footer {
     color: #252525;
     outline: none;
     transition: .25s;
+	pointer-events: none;
 } 
 #contact input:focus, #contact textarea:focus, #kontakt input:focus, #kontakt textarea:focus {
     border-color: #ff8b00;
@@ -1271,7 +1274,8 @@ footer {
     color: #252525;
     padding: auto 3em!important;
     min-width: 40%;
-    color: #fff
+    color: #fff;
+	pointer-events: none;
 }
 
 
